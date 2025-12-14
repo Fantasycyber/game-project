@@ -1,16 +1,5 @@
 import streamlit as st
-# --- เพิ่มโค้ดส่วนนี้เพื่อซ่อนเมนูและ Footer ---
-hide_menu_style = """
-        <style>
-        #MainMenu {visibility: hidden;}
-        footer {visibility: hidden;}
-        header {visibility: hidden;}
-        </style>
-        """
-st.markdown(hide_menu_style, unsafe_allow_html=True)
-# ---------------------------------------------
 
-# ... โค้ดเกมของคุณอยู่ด้านล่างต่อจากนี้ ...
 import random
 
 # --- ส่วนที่ 1: ตั้งค่าความจำ (Session State) ---
